@@ -76,7 +76,7 @@ VM_NAME=Validate-WebApp-00
 Step 2 - Run the Container
 
 ```
-docker run --rm -it --env-file myEnvFile lamw/deploy-vm-from-content-library"
+docker run --rm -it --env-file myEnvFile lamw/deploy-vm-from-content-library
 ```
 
 If the operation was successful, you should see a message like the following:
