@@ -35,7 +35,7 @@ if [ $? -eq 1 ]; then
 fi
 
 echo "Deploying new VM ${VM_NAME} from ${LIBRARY_NAME} Content Library ..."
-govc vcenter.deploy "${LIBRARY_NAME}" "${LIBRARY_TEMPLATE}" "${VM_NAME}"
+govc library.deploy "${LIBRARY_NAME}/${LIBRARY_TEMPLATE}" "${VM_NAME}"
 
 echo "Powering on ${VM_NAME} ..."
 govc vm.power -on=true "${VM_NAME}"

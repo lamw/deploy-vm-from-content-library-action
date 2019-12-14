@@ -24,7 +24,7 @@ action "docker://lamw/create-vsphere-tag" {
     GOVC_FOLDER = "Workloads"
     GOVC_RESOURCE_POOL = "Compute-ResourcePool"
     LIBRARY_NAME = "Customer[0]"
-    LIBRARY_TEMPLATE = "PhotonOS-Template"
+    LIBRARY_TEMPLATE = "WebApp-Template"
     VM_NAME = "Validate-WebApp-00"
   }
 }
@@ -69,7 +69,7 @@ GOVC_DATASTORE=WorkloadDatastore
 GOVC_FOLDER=Workloads
 GOVC_RESOURCE_POOL=Compute-ResourcePool
 LIBRARY_NAME=Customer[0]
-LIBRARY_TEMPLATE=PhotonOS-Template
+LIBRARY_TEMPLATE=WebApp-Template
 VM_NAME=Validate-WebApp-00
 ```
 
